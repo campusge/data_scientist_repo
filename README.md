@@ -1,2 +1,2 @@
 # data_scientist_repo
-repo for data scientist specialization
+repo for data scientist specialization of coursera
