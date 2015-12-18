@@ -186,4 +186,4 @@ setkey(dt, subject, activity, featDomain, featAcceleration, featInstrument, feat
 dtTidy <- dt[, list(count = .N, average = mean(value)), by=key(dt)]
 
 # export the tidy data to a tab delimited text file
-write.table(dtTidy, file.path(path.data,"dtTidy.txt"), sep="\t",row.names = FALSE) 
+write.table(dtTidy, file.path(path.data,"dtTidy.txt"), sep="\t",row.names = FALSE, quote = FALSE) 
