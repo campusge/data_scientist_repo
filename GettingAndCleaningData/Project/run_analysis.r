@@ -8,11 +8,7 @@
 # 4) Appropriately labels the data set with descriptive activity names.
 # 5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
-
-# Credits: this code is stronly inspired by the work of Benjamin Chan, 
-# present at the url https://github.com/benjamin-chan/GettingAndCleaningData/tree/master/Project
-# however with several modifications
+# Credits: this code is inspired by the work of Benjamin Chan 
 
 # load required packages
 # create a list of packages 

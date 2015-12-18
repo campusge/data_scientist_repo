@@ -37,4 +37,4 @@ Steps to reproduce this project
 
 Outputs produced
 ----------------
-Tidy dataset file `dtTidy.txt` (tab-delimited text), whose description is in the odebook file `codebook.md`
+Tidy dataset file `dtTidy.txt` (tab-delimited text), whose description is in the Code Book file `codebook.md`.
