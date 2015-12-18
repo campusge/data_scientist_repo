@@ -12,7 +12,7 @@
 
 # Credits: this code is stronly inspired by the work of Benjamin Chan, 
 # present at the url https://github.com/benjamin-chan/GettingAndCleaningData/tree/master/Project
-
+# however with several modifications
 
 # load required packages
 # create a list of packages 
