@@ -101,25 +101,7 @@ train = train[, cols.without.na]
 test = test[, cols.without.na]
 ```
 
-##Preprocessing
-###Check for features’s variance
 
-Check for zero variance. Each feature should ideally be as distant as possible (as orthogonal as possible) from the other features.
-```{r}
-# check for zero variance
-zero.var = nearZeroVar(train, saveMetrics=TRUE)
-zero.var
-```
-
-There is no features without variability (all has enough variance). So there is no feature to be removed further.
-
-###Plot of relationship between features and outcome
-
-Plot the relationship between features and outcome. From the plot below, each features has relatively the same distribution among the 5 outcome levels (A, B, C, D, E).
-
-```{r}
-featurePlot(train, outcome.org, "strip")
-```
 
 
 ##Build machine learning model
