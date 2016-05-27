@@ -121,15 +121,6 @@ Plot the relationship between features and outcome. From the plot below, each fe
 featurePlot(train, outcome.org, "strip")
 ```
 
-###Plot of correlation matrix
-
-Plot a correlation matrix between features.
-A good set of features is when they do not correalte too much, especially when using regression. Some features seem to corrolate but using the tree algorithms such as decision trees or boosting trees collinarity and correlation is not a major issue.
-
-```{r}
-corrplot.mixed(cor(train), lower="circle", upper="color", 
-               tl.pos="lt", diag="n", order="hclust", hclust.method="complete")
-```
 
 ##Build machine learning model
 
