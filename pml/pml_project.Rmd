@@ -51,8 +51,7 @@ if (!file.exists(test.name)) {
 # load the CSV files as data.frame 
 train <- read.csv("./data/pml-training.csv")
 test <- read.csv("./data/pml-testing.csv")
-str(train)
-str(test)
+
 ```
 
 The raw training data has 19622 rows of observations and 158 features (predictors). Column X is unusable row number. While the testing data has 20 observations and the same 158 features. There is one column of target outcome named classe.
