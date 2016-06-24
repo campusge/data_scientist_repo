@@ -1,0 +1,9 @@
+name: EuStockMarkets
+account: campusge
+server: shinyapps.io
+appId: 110452
+bundleId: 488350
+url: https://campusge.shinyapps.io/EuStockMarkets/
+when: 1466776688.5677
+asMultiple: FALSE
+asStatic: FALSE
